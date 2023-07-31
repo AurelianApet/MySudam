@@ -1,0 +1,385 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"PO-Revision-Date: 2017-08-21 16:21+0800\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 2.0.3\n"
+"Last-Translator: \n"
+"Language: ko\n"
+
+#: webroot/test.php:75
+msgid "Debug setting does not allow access to this url."
+msgstr "디버그 설정에서이 URL에 대한 액세스를 허용하지 않습니다."
+
+#: Controller/Scaffold.php:127
+msgid "Scaffold :: "
+msgstr "스캐폴드 ::"
+
+#: Controller/Scaffold.php:166;233;302
+msgid "Invalid %s"
+msgstr "유효하지 않은 %s"
+
+#: Controller/Scaffold.php:221
+msgid "updated"
+msgstr "업데이트됨."
+
+#: Controller/Scaffold.php:224
+msgid "saved"
+msgstr "저장됨."
+
+#: Controller/Scaffold.php:244
+msgid "The %1$s has been %2$s"
+msgstr "%1$s은 %2$s되었습니다."
+
+#: Controller/Scaffold.php:254
+msgid "Please correct errors below."
+msgstr "아래 오류를 수정하십시오."
+
+#: Controller/Scaffold.php:305
+msgid "The %1$s with id: %2$s has been deleted."
+msgstr "ID가 %2$s 인 %1$s이 (가) 삭제되었습니다."
+
+#: Controller/Scaffold.php:308
+msgid "There was an error deleting the %1$s with id: %2$s"
+msgstr "ID가 %1$s 인 파일을 삭제하는 중 오류가 발생했습니다 : %2$s"
+
+#: Controller/Component/AuthComponent.php:432
+msgid "You are not authorized to access that location."
+msgstr "해당 위치에 액세스 할 수있는 권한이 없습니다."
+
+#: Error/ExceptionRenderer.php:222
+msgid "Not Found"
+msgstr "찾지 못함"
+
+#: Error/ExceptionRenderer.php:245
+msgid "An Internal Error Has Occurred."
+msgstr "내부 오류가 발생했습니다."
+
+#: Model/Validator/CakeValidationSet.php:286
+msgid "This field cannot be left blank"
+msgstr "이 입력란은 비워 둘 수 없습니다."
+
+#: Network/CakeResponse.php:1355
+msgid "The requested file was not found"
+msgstr "요청한 파일을 찾을 수 없습니다."
+
+#: Utility/CakeNumber.php:119
+msgid "%s KB"
+msgstr "kB"
+
+#: Utility/CakeNumber.php:121
+msgid "%s MB"
+msgstr "MB"
+
+#: Utility/CakeNumber.php:123
+msgid "%s GB"
+msgstr "GB"
+
+#: Utility/CakeNumber.php:125
+msgid "%s TB"
+msgstr "%s TB"
+
+#: Utility/CakeNumber.php:117
+msgid "%d Byte"
+msgid_plural "%d Bytes"
+msgstr[0] "바이트"
+
+#: Utility/CakeTime.php:397
+msgid "Today, %s"
+msgstr "오늘 %s"
+
+#: Utility/CakeTime.php:400
+msgid "Yesterday, %s"
+msgstr "어제의"
+
+#: Utility/CakeTime.php:403
+msgid "Tomorrow, %s"
+msgstr "내일, %s"
+
+#: Utility/CakeTime.php:408
+msgid "Sunday"
+msgstr "일요일"
+
+#: Utility/CakeTime.php:409
+msgid "Monday"
+msgstr "월요일"
+
+#: Utility/CakeTime.php:410
+msgid "Tuesday"
+msgstr "화요일"
+
+#: Utility/CakeTime.php:411
+msgid "Wednesday"
+msgstr "수요일"
+
+#: Utility/CakeTime.php:412
+msgid "Thursday"
+msgstr "목요일"
+
+#: Utility/CakeTime.php:413
+msgid "Friday"
+msgstr "금요일"
+
+#: Utility/CakeTime.php:414
+msgid "Saturday"
+msgstr "토요일"
+
+#: Utility/CakeTime.php:420
+msgid "On %s %s"
+msgstr "%s %s에"
+
+#: Utility/CakeTime.php:743
+msgid "%s ago"
+msgstr "%s 전에"
+
+#: Utility/CakeTime.php:744
+msgid "in %s"
+msgstr "In %s."
+
+#: Utility/CakeTime.php:745
+msgid "on %s"
+msgstr ""
+
+#: Utility/CakeTime.php:801
+msgid "just now"
+msgstr "방금"
+
+#: Utility/CakeTime.php:924
+msgid "in about a second"
+msgstr "약 1 초 만에"
+
+#: Utility/CakeTime.php:925
+msgid "in about a minute"
+msgstr "약 1 분 후에"
+
+#: Utility/CakeTime.php:926
+msgid "in about an hour"
+msgstr "약 1 시간 만에"
+
+#: Utility/CakeTime.php:927
+msgid "in about a day"
+msgstr "하루 만에"
+
+#: Utility/CakeTime.php:928
+msgid "in about a week"
+msgstr "약 일주일 후에"
+
+#: Utility/CakeTime.php:929
+msgid "in about a year"
+msgstr "약 1 년 후에"
+
+#: Utility/CakeTime.php:933
+msgid "about a second ago"
+msgstr "약 1 초 전"
+
+#: Utility/CakeTime.php:934
+msgid "about a minute ago"
+msgstr "약 1 분 전"
+
+#: Utility/CakeTime.php:935
+msgid "about an hour ago"
+msgstr "약 한 시간 전에"
+
+#: Utility/CakeTime.php:936
+msgid "about a day ago"
+msgstr "약 1 일 전"
+
+#: Utility/CakeTime.php:937
+msgid "about a week ago"
+msgstr "약 일주일 전에"
+
+#: Utility/CakeTime.php:938
+msgid "about a year ago"
+msgstr "약 1 년 전"
+
+#: Utility/CakeTime.php:958;980
+msgid "days"
+msgstr "하루"
+
+#: Utility/CakeTime.php:895
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] "년"
+
+#: Utility/CakeTime.php:898
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] "% d 개월"
+
+#: Utility/CakeTime.php:901
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] "주"
+
+#: Utility/CakeTime.php:904
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] "일"
+
+#: Utility/CakeTime.php:907
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "시간"
+
+#: Utility/CakeTime.php:910
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "분"
+
+#: Utility/CakeTime.php:913
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d 초"
+
+#: Utility/String.php:701
+msgid "and"
+msgstr "과"
+
+#: View/ViewBlock.php:78
+msgid "A view block with the name '%s' is already/still open."
+msgstr "이름이 '%s'인보기 블록이 이미 열려 있습니다."
+
+#: View/Helper/FormHelper.php:732
+msgid "Error in field %s"
+msgstr "필드 %s에 오류가 있습니다."
+
+#: View/Helper/FormHelper.php:921 View/Scaffolds/form.ctp:46
+#: View/Scaffolds/index.ctp:77;92 View/Scaffolds/view.ctp:63;78;188
+msgid "New %s"
+msgstr "새 %s"
+
+#: View/Helper/FormHelper.php:927 View/Scaffolds/view.ctp:51;109
+msgid "Edit %s"
+msgstr "%s 수정"
+
+#: View/Helper/FormHelper.php:1500
+msgid "empty"
+msgstr "없음"
+
+#: View/Helper/FormHelper.php:1895 View/Scaffolds/form.ctp:21
+msgid "Submit"
+msgstr "제출"
+
+#: View/Helper/FormHelper.php:2874
+msgid "January"
+msgstr "1월"
+
+#: View/Helper/FormHelper.php:2875
+msgid "February"
+msgstr "2월"
+
+#: View/Helper/FormHelper.php:2876
+msgid "March"
+msgstr "3월"
+
+#: View/Helper/FormHelper.php:2877
+msgid "April"
+msgstr "4월"
+
+#: View/Helper/FormHelper.php:2878
+msgid "May"
+msgstr "5월"
+
+#: View/Helper/FormHelper.php:2879
+msgid "June"
+msgstr "6월"
+
+#: View/Helper/FormHelper.php:2880
+msgid "July"
+msgstr "7월"
+
+#: View/Helper/FormHelper.php:2881
+msgid "August"
+msgstr "8월"
+
+#: View/Helper/FormHelper.php:2882
+msgid "September"
+msgstr "9월"
+
+#: View/Helper/FormHelper.php:2883
+msgid "October"
+msgstr "10월"
+
+#: View/Helper/FormHelper.php:2884
+msgid "November"
+msgstr "11월"
+
+#: View/Helper/FormHelper.php:2885
+msgid "December"
+msgstr "12월"
+
+#: View/Helper/HtmlHelper.php:782
+msgid "Home"
+msgstr "홈"
+
+#: View/Helper/PaginatorHelper.php:637
+msgid " of "
+msgstr "의"
+
+#: View/Scaffolds/form.ctp:25 View/Scaffolds/index.ctp:24;75
+#: View/Scaffolds/view.ctp:47
+msgid "Actions"
+msgstr "작업"
+
+#: View/Scaffolds/form.ctp:29 View/Scaffolds/index.ctp:49
+#: View/Scaffolds/view.ctp:173
+msgid "Delete"
+msgstr "삭제"
+
+#: View/Scaffolds/form.ctp:32 View/Scaffolds/index.ctp:52
+#: View/Scaffolds/view.ctp:55;176
+msgid "Are you sure you want to delete # %s?"
+msgstr "정말로 삭제하시겠습니까?"
+
+#: View/Scaffolds/form.ctp:35
+msgid "List"
+msgstr "목록"
+
+#: View/Scaffolds/form.ctp:42 View/Scaffolds/index.ctp:85
+#: View/Scaffolds/view.ctp:59;72
+msgid "List %s"
+msgstr "%s 목록"
+
+#: View/Scaffolds/index.ctp:46 View/Scaffolds/view.ctp:161
+msgid "View"
+msgstr "보기"
+
+#: View/Scaffolds/index.ctp:47 View/Scaffolds/view.ctp:167
+msgid "Edit"
+msgstr "편집"
+
+#: View/Scaffolds/index.ctp:63
+msgid ""
+"Page {:page} of {:pages}, showing {:current} records out of {:count} total, "
+"starting on record {:start}, ending on {:end}"
+msgstr ""
+"{: 시작}에서 시작하여 {: 끝}으로 끝나는 {: 페이지} 중 페이지 {: 페이지}, {: "
+"현재}"
+
+#: View/Scaffolds/index.ctp:68
+msgid "previous"
+msgstr "이전"
+
+#: View/Scaffolds/index.ctp:70
+msgid "next"
+msgstr "다음"
+
+#: View/Scaffolds/view.ctp:18
+msgid "View %s"
+msgstr "보기"
+
+#: View/Scaffolds/view.ctp:55
+msgid "Delete %s"
+msgstr "삭제"
+
+#: View/Scaffolds/view.ctp:93;133
+msgid "Related %s"
+msgstr "관련 %s"

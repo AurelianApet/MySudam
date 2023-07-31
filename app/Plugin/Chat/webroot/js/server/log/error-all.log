@@ -1,0 +1,227 @@
+2017-02-15T02:00:40.794Z - info: Server listening at port 3000
+2017-02-15T04:43:44.897Z - info: Server listening at port 3000
+2017-02-16T09:54:43.491Z - info: Server listening at port 3000
+2017-02-17T02:03:58.855Z - info: Server listening at port 3000
+2017-02-20T00:49:05.029Z - info: Server listening at port 3000
+2017-02-20T03:57:09.027Z - info: Server listening at port 3000
+2017-02-23T03:06:45.846Z - info: Server listening at port 3000
+2017-09-12T14:22:25.789Z - info: Server listening at port 3000
+2017-09-12T15:08:53.053Z - info: Server listening at port 3000
+2017-09-12T15:09:24.855Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:09:24 GMT+0800 (China Standard Time), pid=10600, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server], rss=43745280, heapTotal=27168768, heapUsed=17234128, external=656985, loadavg=[0, 0, 0], uptime=6023.342363
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:09:50.865Z - info: Server listening at port 3000
+2017-09-12T15:10:02.191Z - info: Server listening at port 3000
+2017-09-12T15:14:59.456Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:14:59 GMT+0800 (China Standard Time), pid=5276, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44380160, heapTotal=27168768, heapUsed=18162040, external=723460, loadavg=[0, 0, 0], uptime=6357.9551704
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:00.162Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:00 GMT+0800 (China Standard Time), pid=9988, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=43921408, heapTotal=26120192, heapUsed=18172552, external=723460, loadavg=[0, 0, 0], uptime=6358.6622097
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:00.886Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:00 GMT+0800 (China Standard Time), pid=8388, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44290048, heapTotal=26120192, heapUsed=18137872, external=723460, loadavg=[0, 0, 0], uptime=6359.3854182
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:01.596Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:01 GMT+0800 (China Standard Time), pid=9304, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44474368, heapTotal=26120192, heapUsed=18151760, external=723460, loadavg=[0, 0, 0], uptime=6360.0961317
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:02.294Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:02 GMT+0800 (China Standard Time), pid=7468, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44208128, heapTotal=26120192, heapUsed=18134512, external=723460, loadavg=[0, 0, 0], uptime=6360.7942804
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:03.009Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:03 GMT+0800 (China Standard Time), pid=8344, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44494848, heapTotal=27168768, heapUsed=18152784, external=723460, loadavg=[0, 0, 0], uptime=6361.509779
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:03.724Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:03 GMT+0800 (China Standard Time), pid=4996, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=43991040, heapTotal=26120192, heapUsed=18149064, external=723460, loadavg=[0, 0, 0], uptime=6362.2245915
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:04.521Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:04 GMT+0800 (China Standard Time), pid=4448, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44412928, heapTotal=26120192, heapUsed=18104016, external=723460, loadavg=[0, 0, 0], uptime=6363.02074
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:05.230Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:05 GMT+0800 (China Standard Time), pid=4600, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44032000, heapTotal=26120192, heapUsed=18112552, external=723460, loadavg=[0, 0, 0], uptime=6363.7294629
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:05.959Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:05 GMT+0800 (China Standard Time), pid=8412, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44052480, heapTotal=26120192, heapUsed=18121744, external=723460, loadavg=[0, 0, 0], uptime=6364.4591411
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:06.640Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:06 GMT+0800 (China Standard Time), pid=3824, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44056576, heapTotal=26120192, heapUsed=18152320, external=723460, loadavg=[0, 0, 0], uptime=6365.1396414
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:07.352Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:07 GMT+0800 (China Standard Time), pid=4944, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44613632, heapTotal=27168768, heapUsed=18160424, external=723460, loadavg=[0, 0, 0], uptime=6365.8521927
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:08.065Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:08 GMT+0800 (China Standard Time), pid=3688, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44474368, heapTotal=26120192, heapUsed=18168984, external=723460, loadavg=[0, 0, 0], uptime=6366.5658313
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:08.774Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:08 GMT+0800 (China Standard Time), pid=4888, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44146688, heapTotal=26120192, heapUsed=18137840, external=723460, loadavg=[0, 0, 0], uptime=6367.2748634
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:09.487Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:09 GMT+0800 (China Standard Time), pid=7432, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44101632, heapTotal=26120192, heapUsed=18163824, external=723460, loadavg=[0, 0, 0], uptime=6367.986983
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:15:10.192Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:15:10 GMT+0800 (China Standard Time), pid=5396, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, C:\Users\sturgeons\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js], rss=44294144, heapTotal=27168768, heapUsed=18120848, external=723460, loadavg=[0, 0, 0], uptime=6368.6908891
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:39:23.472Z - error: uncaughtException: listen EADDRINUSE :::3000 date=Tue Sep 12 2017 23:39:23 GMT+0800 (China Standard Time), pid=5524, uid=null, gid=null, cwd=D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server, execPath=C:\Program Files\nodejs\node.exe, version=v6.11.3, argv=[C:\Program Files\nodejs\node.exe, D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server], rss=43692032, heapTotal=26120192, heapUsed=17260776, external=656985, loadavg=[0, 0, 0], uptime=7821.9702894
+Error: listen EADDRINUSE :::3000
+    at Object.exports._errnoException (util.js:1020:11)
+    at exports._exceptionWithHostPort (util.js:1043:20)
+    at Server._listen2 (net.js:1258:14)
+    at listen (net.js:1294:10)
+    at Server.listen (net.js:1390:5)
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\ChatApp.js:37:12
+    at D:\xampp\htdocs\sudam\app\Plugin\Chat\webroot\js\server\chatConfig.js:24:17
+    at tryToString (fs.js:457:3)
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:444:12)
+2017-09-12T15:51:44.629Z - info: Server listening at port 3000
+2017-09-12T16:00:15.013Z - info: Server listening at port 3000
+2017-09-12T16:47:12.556Z - info: Server listening at port 3000
+2017-09-13T01:45:28.413Z - info: Server listening at port 3000
+2017-09-13T06:29:33.248Z - info: Server listening at port 3000
+2017-09-13T16:33:39.548Z - info: Server listening at port 3000
+2017-09-14T02:09:10.339Z - info: Server listening at port 3000
+2017-09-14T06:44:37.662Z - info: Server listening at port 3000
+2017-09-14T06:50:41.401Z - info: Server listening at port 3000
+2017-09-14T07:43:31.908Z - info: Server listening at port 3000
+2017-09-14T07:49:11.123Z - info: Server listening at port 3000
+2017-09-14T07:58:55.109Z - info: Server listening at port 3000
+2017-09-14T08:39:29.885Z - info: Server listening at port 3000
+2017-09-14T08:42:36.716Z - info: Server listening at port 3000
+2017-09-14T09:12:47.019Z - info: Server listening at port 3000
+2017-09-14T10:26:14.238Z - info: Server listening at port 3000
+2017-09-14T10:28:35.021Z - info: Server listening at port 3000
+2017-09-18T01:37:58.478Z - info: Server listening at port 3000

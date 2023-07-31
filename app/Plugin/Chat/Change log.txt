@@ -1,0 +1,15 @@
+v1.1
++ Mobi Integration - Web version  [MOOPLUGIN-470]
++ Fixed online/offline issue
+v1.2
++ Parse a Link Like Facebook    [MOOPLUGIN-483]
++ Core conversations integration [MOOPLUGIN-484]
++ Infinite loop with group which has account deleted [MOOPLUGIN-501]
++ Show chat message display align left . For more information , see https://community.moosocial.com/topics/view/1370/moochat-app [MOOPLUGIN-521]
++ Implementing automatic reconnect when socket is closed [MOOPLUGIN-536]
++ Hide a user on friend list when he/she is blocked. [MOOPLUGIN-542]
++ Improve handling socket disconnect event [MOOPLUGIN-555]
+v1.3
++ Fix major bug
+v1.4
++ Added video conference feature

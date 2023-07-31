@@ -1,0 +1,545 @@
+2017-09-18 06:23:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_findLists' at line 1
+Request URL: /
+Stack Trace:
+#0 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(470): PDOStatement->execute(Array)
+#1 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(436): DboSource->_execute('_findLists', Array)
+#2 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(673): DboSource->execute('_findLists', Array, Array)
+#3 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(616): DboSource->fetchAll('_findLists', Array, Array)
+#4 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(834): DboSource->query('_findLists', Array, Object(Friend))
+#5 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Model->__call('_findLists', Array)
+#6 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Friend->_findLists('before', Array)
+#7 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3005): Model->buildQuery('lists', Array)
+#8 T:\Work\MySns\MySudam\app\Model\Friend.php(71): Model->find('lists', Array)
+#9 T:\Work\MySns\MySudam\app\Model\Friend.php(157): Friend->getFriends('1')
+#10 T:\Work\MySns\MySudam\app\Controller\Widgets\user\suggestionsCoreWidget.php(18): Friend->getFriendSuggestions('1', false, '10')
+#11 [internal function]: suggestionsCoreWidget->beforeRender(Object(HomeController))
+#12 T:\Work\MySns\MySudam\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#13 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#14 T:\Work\MySns\MySudam\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 T:\Work\MySns\MySudam\lib\Cake\Controller\Controller.php(936): CakeEventManager->dispatch(Object(CakeEvent))
+#16 T:\Work\MySns\MySudam\app\Controller\AppController.php(955): Controller->render(NULL, NULL)
+#17 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(200): AppController->render()
+#18 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#19 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2017-09-18 06:23:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_findLists' at line 1
+Request URL: /
+Stack Trace:
+#0 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(470): PDOStatement->execute(Array)
+#1 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(436): DboSource->_execute('_findLists', Array)
+#2 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(673): DboSource->execute('_findLists', Array, Array)
+#3 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(616): DboSource->fetchAll('_findLists', Array, Array)
+#4 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(834): DboSource->query('_findLists', Array, Object(Friend))
+#5 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Model->__call('_findLists', Array)
+#6 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Friend->_findLists('before', Array)
+#7 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3005): Model->buildQuery('lists', Array)
+#8 T:\Work\MySns\MySudam\app\Model\Friend.php(71): Model->find('lists', Array)
+#9 T:\Work\MySns\MySudam\app\Model\Friend.php(157): Friend->getFriends('1')
+#10 T:\Work\MySns\MySudam\app\Controller\Widgets\user\suggestionsCoreWidget.php(18): Friend->getFriendSuggestions('1', false, '10')
+#11 [internal function]: suggestionsCoreWidget->beforeRender(Object(HomeController))
+#12 T:\Work\MySns\MySudam\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#13 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#14 T:\Work\MySns\MySudam\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 T:\Work\MySns\MySudam\lib\Cake\Controller\Controller.php(936): CakeEventManager->dispatch(Object(CakeEvent))
+#16 T:\Work\MySns\MySudam\app\Controller\AppController.php(955): Controller->render(NULL, NULL)
+#17 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(200): AppController->render()
+#18 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#19 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2017-09-18 06:23:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:23:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:23:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:25:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_findLists' at line 1
+Request URL: /
+Stack Trace:
+#0 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(470): PDOStatement->execute(Array)
+#1 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(436): DboSource->_execute('_findLists', Array)
+#2 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(673): DboSource->execute('_findLists', Array, Array)
+#3 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(616): DboSource->fetchAll('_findLists', Array, Array)
+#4 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(834): DboSource->query('_findLists', Array, Object(Friend))
+#5 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Model->__call('_findLists', Array)
+#6 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Friend->_findLists('before', Array)
+#7 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3005): Model->buildQuery('lists', Array)
+#8 T:\Work\MySns\MySudam\app\Model\Friend.php(71): Model->find('lists', Array)
+#9 T:\Work\MySns\MySudam\app\Model\Friend.php(157): Friend->getFriends('1')
+#10 T:\Work\MySns\MySudam\app\Controller\Widgets\user\suggestionsCoreWidget.php(18): Friend->getFriendSuggestions('1', false, '10')
+#11 [internal function]: suggestionsCoreWidget->beforeRender(Object(HomeController))
+#12 T:\Work\MySns\MySudam\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#13 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#14 T:\Work\MySns\MySudam\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 T:\Work\MySns\MySudam\lib\Cake\Controller\Controller.php(936): CakeEventManager->dispatch(Object(CakeEvent))
+#16 T:\Work\MySns\MySudam\app\Controller\AppController.php(955): Controller->render(NULL, NULL)
+#17 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(200): AppController->render()
+#18 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#19 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2017-09-18 06:25:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_findLists' at line 1
+Request URL: /
+Stack Trace:
+#0 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(470): PDOStatement->execute(Array)
+#1 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(436): DboSource->_execute('_findLists', Array)
+#2 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(673): DboSource->execute('_findLists', Array, Array)
+#3 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(616): DboSource->fetchAll('_findLists', Array, Array)
+#4 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(834): DboSource->query('_findLists', Array, Object(Friend))
+#5 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Model->__call('_findLists', Array)
+#6 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Friend->_findLists('before', Array)
+#7 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3005): Model->buildQuery('lists', Array)
+#8 T:\Work\MySns\MySudam\app\Model\Friend.php(71): Model->find('lists', Array)
+#9 T:\Work\MySns\MySudam\app\Model\Friend.php(157): Friend->getFriends('1')
+#10 T:\Work\MySns\MySudam\app\Controller\Widgets\user\suggestionsCoreWidget.php(18): Friend->getFriendSuggestions('1', false, '10')
+#11 [internal function]: suggestionsCoreWidget->beforeRender(Object(HomeController))
+#12 T:\Work\MySns\MySudam\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#13 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#14 T:\Work\MySns\MySudam\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 T:\Work\MySns\MySudam\lib\Cake\Controller\Controller.php(936): CakeEventManager->dispatch(Object(CakeEvent))
+#16 T:\Work\MySns\MySudam\app\Controller\AppController.php(955): Controller->render(NULL, NULL)
+#17 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(200): AppController->render()
+#18 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#19 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2017-09-18 06:25:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:25:01 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:25:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:25:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:28:39 Error: [MissingControllerException] Controller class Socket.ioController could not be found.
+Exception Attributes: array (
+  'class' => 'Socket.ioController',
+  'plugin' => NULL,
+)
+Request URL: /socket.io/?EIO=3&transport=polling&t=LwJhAYb
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:28:39 Error: [MissingControllerException] Controller class Socket.ioController could not be found.
+Exception Attributes: array (
+  'class' => 'Socket.ioController',
+  'plugin' => NULL,
+)
+Request URL: /socket.io/?EIO=3&transport=polling&t=LwJhAYb
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:29:11 Error: [MissingControllerException] Controller class Socket.ioController could not be found.
+Exception Attributes: array (
+  'class' => 'Socket.ioController',
+  'plugin' => NULL,
+)
+Request URL: /socket.io/?EIO=3&transport=polling&t=LwJhIOe
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:29:11 Error: [MissingControllerException] Controller class Socket.ioController could not be found.
+Exception Attributes: array (
+  'class' => 'Socket.ioController',
+  'plugin' => NULL,
+)
+Request URL: /socket.io/?EIO=3&transport=polling&t=LwJhIOe
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:29:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_findLists' at line 1
+Request URL: /
+Stack Trace:
+#0 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(470): PDOStatement->execute(Array)
+#1 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(436): DboSource->_execute('_findLists', Array)
+#2 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(673): DboSource->execute('_findLists', Array, Array)
+#3 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(616): DboSource->fetchAll('_findLists', Array, Array)
+#4 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(834): DboSource->query('_findLists', Array, Object(Friend))
+#5 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Model->__call('_findLists', Array)
+#6 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Friend->_findLists('before', Array)
+#7 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3005): Model->buildQuery('lists', Array)
+#8 T:\Work\MySns\MySudam\app\Model\Friend.php(71): Model->find('lists', Array)
+#9 T:\Work\MySns\MySudam\app\Model\Friend.php(157): Friend->getFriends('1')
+#10 T:\Work\MySns\MySudam\app\Controller\Widgets\user\suggestionsCoreWidget.php(18): Friend->getFriendSuggestions('1', false, '10')
+#11 [internal function]: suggestionsCoreWidget->beforeRender(Object(HomeController))
+#12 T:\Work\MySns\MySudam\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#13 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#14 T:\Work\MySns\MySudam\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 T:\Work\MySns\MySudam\lib\Cake\Controller\Controller.php(936): CakeEventManager->dispatch(Object(CakeEvent))
+#16 T:\Work\MySns\MySudam\app\Controller\AppController.php(955): Controller->render(NULL, NULL)
+#17 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(200): AppController->render()
+#18 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#19 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2017-09-18 06:29:24 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_findLists' at line 1
+Request URL: /
+Stack Trace:
+#0 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(470): PDOStatement->execute(Array)
+#1 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(436): DboSource->_execute('_findLists', Array)
+#2 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(673): DboSource->execute('_findLists', Array, Array)
+#3 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(616): DboSource->fetchAll('_findLists', Array, Array)
+#4 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(834): DboSource->query('_findLists', Array, Object(Friend))
+#5 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Model->__call('_findLists', Array)
+#6 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Friend->_findLists('before', Array)
+#7 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3005): Model->buildQuery('lists', Array)
+#8 T:\Work\MySns\MySudam\app\Model\Friend.php(71): Model->find('lists', Array)
+#9 T:\Work\MySns\MySudam\app\Model\Friend.php(157): Friend->getFriends('1')
+#10 T:\Work\MySns\MySudam\app\Controller\Widgets\user\suggestionsCoreWidget.php(18): Friend->getFriendSuggestions('1', false, '10')
+#11 [internal function]: suggestionsCoreWidget->beforeRender(Object(HomeController))
+#12 T:\Work\MySns\MySudam\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#13 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#14 T:\Work\MySns\MySudam\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 T:\Work\MySns\MySudam\lib\Cake\Controller\Controller.php(936): CakeEventManager->dispatch(Object(CakeEvent))
+#16 T:\Work\MySns\MySudam\app\Controller\AppController.php(955): Controller->render(NULL, NULL)
+#17 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(200): AppController->render()
+#18 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#19 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2017-09-18 06:29:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:29:24 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:29:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:29:24 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:29:46 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/adm/img/portlet-collapse-icon-white.png
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:29:46 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /theme/adm/img/portlet-collapse-icon-white.png
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:40:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_findLists' at line 1
+Request URL: /
+Stack Trace:
+#0 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(470): PDOStatement->execute(Array)
+#1 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(436): DboSource->_execute('_findLists', Array)
+#2 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(673): DboSource->execute('_findLists', Array, Array)
+#3 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(616): DboSource->fetchAll('_findLists', Array, Array)
+#4 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(834): DboSource->query('_findLists', Array, Object(Friend))
+#5 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Model->__call('_findLists', Array)
+#6 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Friend->_findLists('before', Array)
+#7 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3005): Model->buildQuery('lists', Array)
+#8 T:\Work\MySns\MySudam\app\Model\Friend.php(71): Model->find('lists', Array)
+#9 T:\Work\MySns\MySudam\app\Model\Activity.php(258): Friend->getFriends(false)
+#10 T:\Work\MySns\MySudam\app\Model\Activity.php(63): Activity->getConditon('everyone', false, NULL)
+#11 T:\Work\MySns\MySudam\app\Controller\Component\FeedsComponent.php(73): Activity->getActivities('everyone', false)
+#12 T:\Work\MySns\MySudam\app\Controller\HomeController.php(62): FeedsComponent->get()
+#13 [internal function]: HomeController->index()
+#14 T:\Work\MySns\MySudam\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#15 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#16 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#17 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2017-09-18 06:40:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_findLists' at line 1
+Request URL: /
+Stack Trace:
+#0 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(470): PDOStatement->execute(Array)
+#1 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(436): DboSource->_execute('_findLists', Array)
+#2 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(673): DboSource->execute('_findLists', Array, Array)
+#3 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(616): DboSource->fetchAll('_findLists', Array, Array)
+#4 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(834): DboSource->query('_findLists', Array, Object(Friend))
+#5 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Model->__call('_findLists', Array)
+#6 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Friend->_findLists('before', Array)
+#7 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3005): Model->buildQuery('lists', Array)
+#8 T:\Work\MySns\MySudam\app\Model\Friend.php(71): Model->find('lists', Array)
+#9 T:\Work\MySns\MySudam\app\Model\Activity.php(258): Friend->getFriends(false)
+#10 T:\Work\MySns\MySudam\app\Model\Activity.php(63): Activity->getConditon('everyone', false, NULL)
+#11 T:\Work\MySns\MySudam\app\Controller\Component\FeedsComponent.php(73): Activity->getActivities('everyone', false)
+#12 T:\Work\MySns\MySudam\app\Controller\HomeController.php(62): FeedsComponent->get()
+#13 [internal function]: HomeController->index()
+#14 T:\Work\MySns\MySudam\lib\Cake\Controller\Controller.php(491): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#15 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#16 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest))
+#17 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2017-09-18 06:40:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:40:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:40:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 06:40:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 08:02:04 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_findLists' at line 1
+Request URL: /users
+Stack Trace:
+#0 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(470): PDOStatement->execute(Array)
+#1 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(436): DboSource->_execute('_findLists', Array)
+#2 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(673): DboSource->execute('_findLists', Array, Array)
+#3 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(616): DboSource->fetchAll('_findLists', Array, Array)
+#4 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(834): DboSource->query('_findLists', Array, Object(Friend))
+#5 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Model->__call('_findLists', Array)
+#6 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Friend->_findLists('before', Array)
+#7 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3005): Model->buildQuery('lists', Array)
+#8 T:\Work\MySns\MySudam\app\Model\Friend.php(71): Model->find('lists', Array)
+#9 T:\Work\MySns\MySudam\app\Model\Friend.php(157): Friend->getFriends('1')
+#10 T:\Work\MySns\MySudam\app\Controller\Widgets\user\suggestionsCoreWidget.php(18): Friend->getFriendSuggestions('1', false, '10')
+#11 [internal function]: suggestionsCoreWidget->beforeRender(Object(UsersController))
+#12 T:\Work\MySns\MySudam\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#13 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#14 T:\Work\MySns\MySudam\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 T:\Work\MySns\MySudam\lib\Cake\Controller\Controller.php(936): CakeEventManager->dispatch(Object(CakeEvent))
+#16 T:\Work\MySns\MySudam\app\Controller\AppController.php(955): Controller->render(NULL, NULL)
+#17 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(200): AppController->render()
+#18 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#19 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2017-09-18 08:02:04 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_findLists' at line 1
+Request URL: /users
+Stack Trace:
+#0 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(470): PDOStatement->execute(Array)
+#1 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(436): DboSource->_execute('_findLists', Array)
+#2 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(673): DboSource->execute('_findLists', Array, Array)
+#3 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(616): DboSource->fetchAll('_findLists', Array, Array)
+#4 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(834): DboSource->query('_findLists', Array, Object(Friend))
+#5 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Model->__call('_findLists', Array)
+#6 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Friend->_findLists('before', Array)
+#7 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3005): Model->buildQuery('lists', Array)
+#8 T:\Work\MySns\MySudam\app\Model\Friend.php(71): Model->find('lists', Array)
+#9 T:\Work\MySns\MySudam\app\Model\Friend.php(157): Friend->getFriends('1')
+#10 T:\Work\MySns\MySudam\app\Controller\Widgets\user\suggestionsCoreWidget.php(18): Friend->getFriendSuggestions('1', false, '10')
+#11 [internal function]: suggestionsCoreWidget->beforeRender(Object(UsersController))
+#12 T:\Work\MySns\MySudam\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#13 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#14 T:\Work\MySns\MySudam\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 T:\Work\MySns\MySudam\lib\Cake\Controller\Controller.php(936): CakeEventManager->dispatch(Object(CakeEvent))
+#16 T:\Work\MySns\MySudam\app\Controller\AppController.php(955): Controller->render(NULL, NULL)
+#17 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(200): AppController->render()
+#18 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#19 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2017-09-18 08:02:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 08:02:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 08:02:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 08:02:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 08:02:29 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_findLists' at line 1
+Request URL: /users/index
+Stack Trace:
+#0 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(470): PDOStatement->execute(Array)
+#1 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(436): DboSource->_execute('_findLists', Array)
+#2 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(673): DboSource->execute('_findLists', Array, Array)
+#3 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(616): DboSource->fetchAll('_findLists', Array, Array)
+#4 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(834): DboSource->query('_findLists', Array, Object(Friend))
+#5 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Model->__call('_findLists', Array)
+#6 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Friend->_findLists('before', Array)
+#7 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3005): Model->buildQuery('lists', Array)
+#8 T:\Work\MySns\MySudam\app\Model\Friend.php(71): Model->find('lists', Array)
+#9 T:\Work\MySns\MySudam\app\Model\Friend.php(157): Friend->getFriends('1')
+#10 T:\Work\MySns\MySudam\app\Controller\Widgets\user\suggestionsCoreWidget.php(18): Friend->getFriendSuggestions('1', false, '10')
+#11 [internal function]: suggestionsCoreWidget->beforeRender(Object(UsersController))
+#12 T:\Work\MySns\MySudam\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#13 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#14 T:\Work\MySns\MySudam\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 T:\Work\MySns\MySudam\lib\Cake\Controller\Controller.php(936): CakeEventManager->dispatch(Object(CakeEvent))
+#16 T:\Work\MySns\MySudam\app\Controller\AppController.php(955): Controller->render(NULL, NULL)
+#17 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(200): AppController->render()
+#18 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#19 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2017-09-18 08:02:29 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '_findLists' at line 1
+Request URL: /users/index
+Stack Trace:
+#0 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(470): PDOStatement->execute(Array)
+#1 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(436): DboSource->_execute('_findLists', Array)
+#2 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(673): DboSource->execute('_findLists', Array, Array)
+#3 T:\Work\MySns\MySudam\lib\Cake\Model\Datasource\DboSource.php(616): DboSource->fetchAll('_findLists', Array, Array)
+#4 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(834): DboSource->query('_findLists', Array, Object(Friend))
+#5 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Model->__call('_findLists', Array)
+#6 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3071): Friend->_findLists('before', Array)
+#7 T:\Work\MySns\MySudam\lib\Cake\Model\Model.php(3005): Model->buildQuery('lists', Array)
+#8 T:\Work\MySns\MySudam\app\Model\Friend.php(71): Model->find('lists', Array)
+#9 T:\Work\MySns\MySudam\app\Model\Friend.php(157): Friend->getFriends('1')
+#10 T:\Work\MySns\MySudam\app\Controller\Widgets\user\suggestionsCoreWidget.php(18): Friend->getFriendSuggestions('1', false, '10')
+#11 [internal function]: suggestionsCoreWidget->beforeRender(Object(UsersController))
+#12 T:\Work\MySns\MySudam\lib\Cake\Utility\ObjectCollection.php(128): call_user_func_array(Array, Array)
+#13 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#14 T:\Work\MySns\MySudam\lib\Cake\Event\CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#15 T:\Work\MySns\MySudam\lib\Cake\Controller\Controller.php(936): CakeEventManager->dispatch(Object(CakeEvent))
+#16 T:\Work\MySns\MySudam\app\Controller\AppController.php(955): Controller->render(NULL, NULL)
+#17 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(200): AppController->render()
+#18 T:\Work\MySns\MySudam\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#19 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2017-09-18 08:02:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 08:02:30 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /img/cake.power.gif
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 08:02:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-09-18 08:02:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/cake.generic.css
+Stack Trace:
+#0 T:\Work\MySns\MySudam\app\webroot\index.php(80): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

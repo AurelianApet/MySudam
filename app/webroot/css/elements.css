@@ -1,0 +1,64 @@
+/* = Show All Pages
+-------------------------------------------------------------- */
+
+#fb5 #fb5-all-pages .fb5-container-pages {
+	position: absolute; 
+	width: 100%;
+	height: 80px;
+	top: 300px;
+	background: black;
+	padding: 2% 0;
+			box-shadow: 0 0 40px #64c8d3;
+			box-shadow: 0 0 40px rgba(100, 200, 211, .8);
+	   -moz-box-shadow: 0 0 40px rgba(100, 200, 211, .8);
+	-webkit-box-shadow: 0 0 40px rgba(100, 200, 211, .8);
+}
+
+#fb5 #fb5-menu-holder {
+	position: absolute;
+	height:inherit;
+	overflow: hidden;
+	width: 100%;
+}
+
+#fb5 #fb5-slider {
+	position: absolute;
+	left:0;
+	list-style: none;
+	height:inherit;
+	margin: 0;
+	padding: 0;
+}
+
+#fb5 #fb5-slider li {
+	float: left;
+	position: relative;
+	height:inherit;
+	padding: 0 10px;
+	text-align: center;
+	cursor: pointer;
+	margin:0;
+	list-style:none;
+}
+
+#fb5 #fb5-slider li:first-child {
+	padding-left: 100px;
+}
+
+#fb5 #fb5-slider li:last-child {
+	padding-right: 100px;
+}
+
+#fb5 #fb5-slider li:hover {
+
+}
+
+#fb5 #fb5-slider li img {
+	float: left;
+	height:inherit;
+}
+
+
+
+	
+
